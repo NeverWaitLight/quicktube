@@ -1,0 +1,32 @@
+# 构建输出和依赖
+**/target/
+**/build/
+**/dist/
+**/node_modules/
+
+# IDE相关
+**/.idea/
+**/.vscode/
+**/.classpath
+**/.project
+**/.settings/
+
+# 日志文件
+**/logs/
+**/*.log
+
+# 系统文件
+**/.DS_Store
+**/Thumbs.db
+
+# Git相关
+**/.git/
+**/.gitignore
+
+# 其他不需要的文件
+**/*.md
+docker-compose.yml
+LICENSE
+
+# 保留需要的文件
+!README.md 
